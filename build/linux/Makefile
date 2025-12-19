@@ -79,6 +79,7 @@ SRCS     += common/vec/intrinsic.cc \
 			common/vec/intrinsic_pixel.cc
 
 SRCSAVX = common/vec/intrinsic_sao_avx2.cc \
+		  common/vec/intrinsic_alf_avx2.c \
 		  common/vec/intrinsic_deblock_avx2.cc \
 		  common/vec/intrinsic_intra-pred_avx2.cc \
 		  common/vec/intrinsic_inter_pred_avx2.cc \
